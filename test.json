@@ -1,0 +1,58 @@
+{
+  "costPerMinute": 0.5,
+
+  "cities": [
+    {
+      "id": "city1",
+      "price": 40
+    },
+    {
+      "id": "city2",
+      "price": 10
+    },
+    {
+      "id": "city3",
+      "price": 30
+    },
+    {
+      "id": "city4",
+      "price": 5
+    }
+  ],
+  "roads": [
+    {
+      "orig": "city1",
+      "dest": "city2",
+      "duration": 60,
+      "price": 20
+    },
+    {
+      "orig": "city1",
+      "dest": "city3",
+      "duration": 40,
+      "price": 10
+    },
+    {
+      "orig": "city3",
+      "dest": "city4",
+      "duration": 20,
+      "price": 5
+    },
+    {
+      "orig": "city2",
+      "dest": "city4",
+      "duration": 20,
+      "price": 5
+    }
+  ],
+  "alliances": [
+    [
+      "city1",
+      "city2"
+    ],
+    [
+      "city2",
+      "city4"
+    ]
+  ]
+}
